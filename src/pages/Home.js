@@ -20,7 +20,7 @@ const Home = () => {
             </h2>
           </div>
         </div>
-        <Buttons right={"/projet-1"} />
+        <Buttons right={'/projet-1'} />
       </div>
     </div>
   );

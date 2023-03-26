@@ -5,7 +5,7 @@ const Buttons = ({ right, left }) => {
   return (
     <div className="scroll-bottom">
       {left && (
-        <NavLink to={''} className="left hover">
+        <NavLink to={left} className="left hover">
           <span>&#10092;</span>
         </NavLink>
       )}
