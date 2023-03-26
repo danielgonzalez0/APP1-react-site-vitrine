@@ -1,4 +1,5 @@
 import React from 'react';
+import Buttons from '../components/Buttons';
 import DynamicText from '../components/DynamicText';
 import Mouse from '../components/Mouse';
 import Navigation from '../components/Navigation';
@@ -19,6 +20,7 @@ const Home = () => {
             </h2>
           </div>
         </div>
+        <Buttons right={"/projet-1"} />
       </div>
     </div>
   );
